@@ -1,0 +1,32 @@
+{
+  "name": "project4-backend-sei15",
+  "version": "1.0.0",
+  "description": "We provide a platform that brings technicians together with customers to provide phone and computer maintenance, either software or hardware.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/reemalsenan/Project4-backend-SEI15.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "formik": "^2.2.9",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^5.12.12",
+    "nodemailer": "^6.6.1",
+    "path": "^0.12.7",
+    "stripe": "^8.154.0",
+    "yup": "^0.32.9"
+  }
+}
